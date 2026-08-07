@@ -24,6 +24,9 @@ class userinput {
             System.out.println("Enter double value:");
             double f = sc.nextDouble();
             System.out.println("The double value is : " + f);
+            System.out.println("Enter boolean value:");
+            boolean g = sc.nextBoolean();
+            System.out.println("The boolean value is : " + g);
         }
     }
 }
