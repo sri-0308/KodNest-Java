@@ -10,12 +10,11 @@ class Student{
   }
   void display()
   {
-    System.out.println(name);
-    System.out.println(age);
-    System.out.println(height);
+    System.out.println(this.name);
+    System.out.println(this.age);
+    System.out.println(this.height);
   }
 }
-
 public class StudentApplication {
     public static void main(String args[])
     {
